@@ -62,6 +62,7 @@
       vocab.hidden = false;
       $('vocabIcon').textContent = '←';
       $('vocabLabel').textContent = '返回阅读';
+      $('vocabBadge').hidden = true;
       renderVocab();
       window.scrollTo(0, 0);
     } else {
