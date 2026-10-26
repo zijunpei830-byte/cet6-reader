@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f0">
+<title>全球高考 · 六级词汇阅读</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progressbar" id="progressbar"></div>
+
+<header class="topbar">
+  <button class="navbtn" id="btnToc" type="button"><span class="ic">☰</span>目录</button>
+  <div class="bookname" id="bookname">全球高考</div>
+  <button class="navbtn" id="btnVocab" type="button"><span class="ic" id="vocabIcon">📖</span><span id="vocabLabel">生词本</span><span class="badge" id="vocabBadge" hidden>0</span></button>
+</header>
+
+<main id="viewReader" class="view">
+  <article class="page" id="page">
+    <div class="loading">正在翻开书页…</div>
+  </article>
+  <nav class="chapternav" id="chapternav"></nav>
+</main>
+
+<main id="viewVocab" class="view" hidden>
+  <div class="vocabhead">
+    <h1>生词本</h1>
+    <p class="vocabsub" id="vocabSub">点正文里的英文单词，卡片里可以收藏。</p>
+  </div>
+  <ul class="vocablist" id="vocabList"></ul>
+</main>
+
+<div class="backdrop" id="backdrop" hidden></div>
+
+<aside class="drawer" id="tocDrawer" aria-hidden="true">
+  <div class="drawerhead">
+    <div class="drawertitle">目录</div>
+    <input class="search" id="tocSearch" type="search" placeholder="搜章节名或章节号" autocomplete="off">
+  </div>
+  <div class="toclist" id="tocList"></div>
+  <div class="drawerfoot">
+    <div class="settingrow">
+      <span class="settinglabel">字号</span>
+      <button class="mini" data-font="-1" type="button">A−</button>
+      <button class="mini" data-font="1" type="button">A+</button>
+      <span class="settinglabel" style="margin-left:auto">夜间</span>
+      <button class="switch" id="themeSwitch" type="button" role="switch" aria-checked="false"><i></i></button>
+    </div>
+  </div>
+</aside>
+
+<div class="wordcard" id="wordcard" hidden>
+  <div class="wc-inner">
+    <div class="wc-top">
+      <div class="wc-word" id="wcWord"></div>
+      <button class="speak" id="wcSpeak" type="button" title="朗读">🔊</button>
+      <button class="wc-close" id="wcClose" type="button" aria-label="关闭">✕</button>
+    </div>
+    <div class="wc-ipa" id="wcIpa"></div>
+    <div class="wc-mean"><span class="wc-pos" id="wcPos"></span><span id="wcZh"></span></div>
+    <div class="wc-block">
+      <div class="wc-label">重要搭配</div>
+      <ul class="wc-colloc" id="wcColloc"></ul>
+    </div>
+    <div class="wc-family" id="wcFamily"></div>
+    <div class="wc-foot">
+      <span class="wc-count" id="wcCount"></span>
+      <button class="fav" id="wcFav" type="button">收藏</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

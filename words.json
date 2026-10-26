@@ -1,0 +1,1867 @@
+{
+"proctor": {
+"w": "proctor",
+"ipa": "/ˈprɒktə(r)/",
+"pos": "n.",
+"zh": "监考人；（考试的）考官",
+"colloc": [
+"act as a proctor 担任监考",
+"the proctor's voice 考官的声音"
+],
+"family": "",
+"n": 15,
+"avail": 2096
+},
+"violation": {
+"w": "violation",
+"ipa": "/ˌvaɪəˈleɪʃn/",
+"pos": "n.",
+"zh": "违反；违规行为",
+"colloc": [
+"a violation of the rules 违规",
+"commit a violation 违规一次"
+],
+"family": "",
+"n": 15,
+"avail": 204
+},
+"penalty": {
+"w": "penalty",
+"ipa": "/ˈpenəlti/",
+"pos": "n.",
+"zh": "处罚；罚则；代价",
+"colloc": [
+"pay the penalty 付出代价",
+"impose a penalty 施加处罚"
+],
+"family": "",
+"n": 15,
+"avail": 198
+},
+"regulation": {
+"w": "regulation",
+"ipa": "/ˌreɡjuˈleɪʃn/",
+"pos": "n.",
+"zh": "规则；规章；条例",
+"colloc": [
+"break the regulations 违反规则",
+"under the regulations 按规则"
+],
+"family": "",
+"n": 15,
+"avail": 90
+},
+"stipulate": {
+"w": "stipulate",
+"ipa": "/ˈstɪpjuleɪt/",
+"pos": "v.",
+"zh": "（规章）规定；明确要求",
+"colloc": [
+"as stipulated 按照规定",
+"stipulate that... 明文规定"
+],
+"family": "",
+"n": 15,
+"avail": 64
+},
+"prohibit": {
+"w": "prohibit",
+"ipa": "/prəˈhɪbɪt/",
+"pos": "v.",
+"zh": "禁止；不准",
+"colloc": [
+"prohibit sb. from doing 禁止某人做",
+"strictly prohibited 严禁"
+],
+"family": "",
+"n": 6,
+"avail": 14
+},
+"violate": {
+"w": "violate",
+"ipa": "/ˈvaɪəleɪt/",
+"pos": "v.",
+"zh": "违反；违犯",
+"colloc": [
+"violate the rule 违反规则",
+"violate a promise 违背承诺"
+],
+"family": "",
+"n": 9,
+"avail": 11
+},
+"eliminate": {
+"w": "eliminate",
+"ipa": "/ɪˈlɪmɪneɪt/",
+"pos": "v.",
+"zh": "淘汰；排除；清除",
+"colloc": [
+"be eliminated 被淘汰",
+"eliminate the possibility 排除可能性"
+],
+"family": "",
+"n": 15,
+"avail": 47
+},
+"scrutinize": {
+"w": "scrutinize",
+"ipa": "/ˈskruːtənaɪz/",
+"pos": "v.",
+"zh": "仔细审视；端详",
+"colloc": [
+"scrutinize sb.'s face 端详某人的脸",
+"scrutinize the details 细查细节"
+],
+"family": "",
+"n": 15,
+"avail": 20
+},
+"scrutiny": {
+"w": "scrutiny",
+"ipa": "/ˈskruːtəni/",
+"pos": "n.",
+"zh": "审查；细看",
+"colloc": [
+"under scrutiny 受到审查",
+"close scrutiny 严密的审视"
+],
+"family": "",
+"n": 4,
+"avail": 11
+},
+"perceive": {
+"w": "perceive",
+"ipa": "/pəˈsiːv/",
+"pos": "v.",
+"zh": "察觉；感知；认为",
+"colloc": [
+"perceive a change 察觉到变化",
+"perceive sth. as... 把…看作"
+],
+"family": "",
+"n": 6,
+"avail": 7
+},
+"instinct": {
+"w": "instinct",
+"ipa": "/ˈɪnstɪŋkt/",
+"pos": "n.",
+"zh": "本能；直觉",
+"colloc": [
+"by instinct 出于本能",
+"trust your instinct 相信直觉"
+],
+"family": "",
+"n": 12,
+"avail": 17
+},
+"reflex": {
+"w": "reflex",
+"ipa": "/ˈriːfleks/",
+"pos": "n.",
+"zh": "反射；条件反射",
+"colloc": [
+"a conditioned reflex 条件反射",
+"reflex action 反射动作"
+],
+"family": "",
+"n": 8,
+"avail": 13
+},
+"subconsciously": {
+"w": "subconsciously",
+"ipa": "/ˌsʌbˈkɒnʃəsli/",
+"pos": "adv.",
+"zh": "下意识地；潜意识地",
+"colloc": [
+"subconsciously avoid 下意识躲开"
+],
+"family": "subconscious adj. 潜意识的",
+"n": 15,
+"avail": 60
+},
+"suffocate": {
+"w": "suffocate",
+"ipa": "/ˈsʌfəkeɪt/",
+"pos": "v.",
+"zh": "（使）窒息；喘不过气",
+"colloc": [
+"suffocate in the dark 在黑暗里窒息",
+"be suffocated by fear 被恐惧压得透不过气"
+],
+"family": "",
+"n": 13,
+"avail": 17
+},
+"tremor": {
+"w": "tremor",
+"ipa": "/ˈtremə(r)/",
+"pos": "n.",
+"zh": "颤抖；轻微震动",
+"colloc": [
+"a tremor in the voice 声音发颤",
+"hands in tremor 手在抖"
+],
+"family": "",
+"n": 7,
+"avail": 13
+},
+"monotonous": {
+"w": "monotonous",
+"ipa": "/məˈnɒtənəs/",
+"pos": "adj.",
+"zh": "单调的；一成不变的",
+"colloc": [
+"a monotonous voice 单调的嗓音",
+"monotonous routine 单调的日常"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"excessive": {
+"w": "excessive",
+"ipa": "/ɪkˈsesɪv/",
+"pos": "adj.",
+"zh": "过度的；过分的",
+"colloc": [
+"excessive caution 过度的谨慎",
+"excessive force 过度用力"
+],
+"family": "",
+"n": 15,
+"avail": 24
+},
+"redundant": {
+"w": "redundant",
+"ipa": "/rɪˈdʌndənt/",
+"pos": "adj.",
+"zh": "多余的；冗余的",
+"colloc": [
+"redundant words 多余的话",
+"seem redundant 显得多余"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"meticulous": {
+"w": "meticulous",
+"ipa": "/məˈtɪkjələs/",
+"pos": "adj.",
+"zh": "一丝不苟的；极为细致的",
+"colloc": [
+"meticulous care 细致入微",
+"a meticulous plan 周密的计划"
+],
+"family": "",
+"n": 7,
+"avail": 8
+},
+"rigorous": {
+"w": "rigorous",
+"ipa": "/ˈrɪɡərəs/",
+"pos": "adj.",
+"zh": "严谨的；严密的",
+"colloc": [
+"rigorous logic 严密的逻辑",
+"rigorous training 严格的训练"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"deduce": {
+"w": "deduce",
+"ipa": "/dɪˈdjuːs/",
+"pos": "v.",
+"zh": "推断；演绎",
+"colloc": [
+"deduce from the evidence 从证据推断",
+"deduce a conclusion 推出结论"
+],
+"family": "",
+"n": 2,
+"avail": 3
+},
+"verify": {
+"w": "verify",
+"ipa": "/ˈverɪfaɪ/",
+"pos": "v.",
+"zh": "核实；验证",
+"colloc": [
+"verify the facts 核实事实",
+"verify one's guess 验证猜想"
+],
+"family": "",
+"n": 2,
+"avail": 9
+},
+"hypothesis": {
+"w": "hypothesis",
+"ipa": "/haɪˈpɒθəsɪs/",
+"pos": "n.",
+"zh": "假设；假说",
+"colloc": [
+"test a hypothesis 验证假设",
+"on the hypothesis that... 基于…的假设"
+],
+"family": "",
+"n": 2,
+"avail": 4
+},
+"contradiction": {
+"w": "contradiction",
+"ipa": "/ˌkɒntrəˈdɪkʃn/",
+"pos": "n.",
+"zh": "矛盾；自相矛盾之处",
+"colloc": [
+"in contradiction to 与…相矛盾",
+"a flat contradiction 明显的矛盾"
+],
+"family": "",
+"n": 7,
+"avail": 10
+},
+"intimidate": {
+"w": "intimidate",
+"ipa": "/ɪnˈtɪmɪdeɪt/",
+"pos": "v.",
+"zh": "恐吓；威胁",
+"colloc": [
+"intimidate sb. into silence 吓得人不敢说话",
+"an intimidating stare 威慑的目光"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"provoke": {
+"w": "provoke",
+"ipa": "/prəˈvəʊk/",
+"pos": "v.",
+"zh": "挑衅；激起（情绪）",
+"colloc": [
+"provoke sb. deliberately 故意挑衅",
+"provoke a reaction 激起反应"
+],
+"family": "",
+"n": 8,
+"avail": 14
+},
+"compromise": {
+"w": "compromise",
+"ipa": "/ˈkɒmprəmaɪz/",
+"pos": "n./v.",
+"zh": "妥协；折中",
+"colloc": [
+"reach a compromise 达成妥协",
+"refuse to compromise 拒绝让步"
+],
+"family": "",
+"n": 3,
+"avail": 5
+},
+"retain": {
+"w": "retain",
+"ipa": "/rɪˈteɪn/",
+"pos": "v.",
+"zh": "保留；保持",
+"colloc": [
+"retain the memory 保留记忆",
+"retain control 保持控制"
+],
+"family": "",
+"n": 12,
+"avail": 13
+},
+"allocate": {
+"w": "allocate",
+"ipa": "/ˈæləkeɪt/",
+"pos": "v.",
+"zh": "分配；拨给",
+"colloc": [
+"allocate tasks 分配任务",
+"allocate time 分配时间"
+],
+"family": "",
+"n": 7,
+"avail": 9
+},
+"reluctant": {
+"w": "reluctant",
+"ipa": "/rɪˈlʌktənt/",
+"pos": "adj.",
+"zh": "不情愿的；勉强的",
+"colloc": [
+"be reluctant to do 不愿做",
+"a reluctant nod 勉强点头"
+],
+"family": "",
+"n": 15,
+"avail": 30
+},
+"composure": {
+"w": "composure",
+"ipa": "/kəmˈpəʊʒə(r)/",
+"pos": "n.",
+"zh": "镇定；沉着",
+"colloc": [
+"keep one's composure 保持镇定",
+"lose composure 失去冷静"
+],
+"family": "composed adj. 沉着冷静的",
+"n": 15,
+"avail": 50
+},
+"indifference": {
+"w": "indifference",
+"ipa": "/ɪnˈdɪfrəns/",
+"pos": "n.",
+"zh": "冷漠；漠不关心",
+"colloc": [
+"with indifference 漠然地",
+"total indifference 全然漠然"
+],
+"family": "",
+"n": 15,
+"avail": 49
+},
+"sarcasm": {
+"w": "sarcasm",
+"ipa": "/ˈsɑːkæzəm/",
+"pos": "n.",
+"zh": "讽刺；挖苦",
+"colloc": [
+"a hint of sarcasm 一丝讥讽",
+"say sth. with sarcasm 语带讽刺"
+],
+"family": "",
+"n": 1,
+"avail": 4
+},
+"mockery": {
+"w": "mockery",
+"ipa": "/ˈmɒkəri/",
+"pos": "n.",
+"zh": "嘲弄；讥笑",
+"colloc": [
+"make a mockery of 把…当成笑话",
+"a note of mockery 嘲弄的语气"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"compassion": {
+"w": "compassion",
+"ipa": "/kəmˈpæʃn/",
+"pos": "n.",
+"zh": "同情；怜悯",
+"colloc": [
+"show compassion for 对…表示同情",
+"without compassion 毫无怜悯"
+],
+"family": "",
+"n": 2,
+"avail": 2
+},
+"subtle": {
+"w": "subtle",
+"ipa": "/ˈsʌtl/",
+"pos": "adj.",
+"zh": "微妙的；不易察觉的",
+"colloc": [
+"a subtle change 微妙的变化",
+"subtle difference 细微的差别"
+],
+"family": "",
+"n": 15,
+"avail": 31
+},
+"fragile": {
+"w": "fragile",
+"ipa": "/ˈfrædʒaɪl/",
+"pos": "adj.",
+"zh": "脆弱的；易碎的",
+"colloc": [
+"a fragile balance 脆弱的平衡",
+"fragile nerves 脆弱的神经"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"pungent": {
+"w": "pungent",
+"ipa": "/ˈpʌŋdʒənt/",
+"pos": "adj.",
+"zh": "（气味）刺鼻的；辛辣的",
+"colloc": [
+"a pungent smell 刺鼻的气味",
+"pungent smoke 呛人的烟"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"damp": {
+"w": "damp",
+"ipa": "/dæmp/",
+"pos": "adj.",
+"zh": "潮湿的；阴湿的",
+"colloc": [
+"damp air 潮湿的空气",
+"a damp wall 阴湿的墙"
+],
+"family": "",
+"n": 16,
+"avail": 26
+},
+"dilapidated": {
+"w": "dilapidated",
+"ipa": "/dɪˈlæpɪdeɪtɪd/",
+"pos": "adj.",
+"zh": "破败的；年久失修的",
+"colloc": [
+"a dilapidated house 破败的房子",
+"dilapidated walls 斑驳的墙"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"cramped": {
+"w": "cramped",
+"ipa": "/kræmpt/",
+"pos": "adj.",
+"zh": "狭窄的；逼仄的",
+"colloc": [
+"a cramped room 逼仄的房间",
+"cramped space 狭小的空间"
+],
+"family": "",
+"n": 8,
+"avail": 10
+},
+"silhouette": {
+"w": "silhouette",
+"ipa": "/ˌsɪluˈet/",
+"pos": "n.",
+"zh": "剪影；轮廓",
+"colloc": [
+"in silhouette 呈剪影状",
+"a dark silhouette 黑色的轮廓"
+],
+"family": "",
+"n": 15,
+"avail": 24
+},
+"gesture": {
+"w": "gesture",
+"ipa": "/ˈdʒestʃə(r)/",
+"pos": "n.",
+"zh": "手势；姿态",
+"colloc": [
+"make a gesture 比了个手势",
+"a vague gesture 含糊的手势"
+],
+"family": "",
+"n": 14,
+"avail": 22
+},
+"whisper": {
+"w": "whisper",
+"ipa": "/ˈwɪspə(r)/",
+"pos": "v.",
+"zh": "低声说；耳语",
+"colloc": [
+"whisper to sb. 对某人低语",
+"in a whisper 低声地"
+],
+"family": "",
+"n": 15,
+"avail": 68
+},
+"shriek": {
+"w": "shriek",
+"ipa": "/ʃriːk/",
+"pos": "v./n.",
+"zh": "尖叫（声）",
+"colloc": [
+"shriek with fear 吓得尖叫",
+"a shrill shriek 尖利的叫声"
+],
+"family": "",
+"n": 15,
+"avail": 27
+},
+"grope": {
+"w": "grope",
+"ipa": "/ɡrəʊp/",
+"pos": "v.",
+"zh": "摸索；摸索着走",
+"colloc": [
+"grope for the switch 摸索开关",
+"grope in the dark 摸黑"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"stagger": {
+"w": "stagger",
+"ipa": "/ˈstæɡə(r)/",
+"pos": "v.",
+"zh": "踉跄；摇摇晃晃地走",
+"colloc": [
+"stagger back 踉跄后退",
+"stagger to one's feet 摇晃着站起"
+],
+"family": "",
+"n": 8,
+"avail": 13
+},
+"crouch": {
+"w": "crouch",
+"ipa": "/kraʊtʃ/",
+"pos": "v.",
+"zh": "蹲伏；蜷缩",
+"colloc": [
+"crouch down 蹲下",
+"crouch in a corner 缩在角落"
+],
+"family": "",
+"n": 15,
+"avail": 51
+},
+"wince": {
+"w": "wince",
+"ipa": "/wɪns/",
+"pos": "v.",
+"zh": "（因疼痛）龇牙；皱眉",
+"colloc": [
+"wince with pain 疼得龇牙",
+"wince at the sight 看着就皱眉"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"sneer": {
+"w": "sneer",
+"ipa": "/snɪə(r)/",
+"pos": "v./n.",
+"zh": "冷笑；讥笑",
+"colloc": [
+"sneer at sb. 对某人冷笑",
+"a cold sneer 一声冷笑"
+],
+"family": "",
+"n": 9,
+"avail": 14
+},
+"shrug": {
+"w": "shrug",
+"ipa": "/ʃrʌɡ/",
+"pos": "v.",
+"zh": "耸肩（表示不知或不在意）",
+"colloc": [
+"shrug one's shoulders 耸肩",
+"shrug it off 不以为意"
+],
+"family": "",
+"n": 2,
+"avail": 2
+},
+"immense": {
+"w": "immense",
+"ipa": "/ɪˈmens/",
+"pos": "adj.",
+"zh": "巨大的；极大的",
+"colloc": [
+"immense pressure 巨大的压力",
+"an immense hall 巨大的厅"
+],
+"family": "",
+"n": 12,
+"avail": 14
+},
+"vast": {
+"w": "vast",
+"ipa": "/vɑːst/",
+"pos": "adj.",
+"zh": "辽阔的；空旷的",
+"colloc": [
+"a vast space 空旷的空间",
+"the vast dark 无边的黑暗"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"corridor": {
+"w": "corridor",
+"ipa": "/ˈkɒrɪdɔː(r)/",
+"pos": "n.",
+"zh": "走廊；甬道",
+"colloc": [
+"a narrow corridor 狭窄的走廊",
+"down the corridor 沿走廊"
+],
+"family": "",
+"n": 15,
+"avail": 71
+},
+"ceiling": {
+"w": "ceiling",
+"ipa": "/ˈsiːlɪŋ/",
+"pos": "n.",
+"zh": "天花板；上限",
+"colloc": [
+"stare at the ceiling 盯着天花板",
+"a low ceiling 低矮的天花板"
+],
+"family": "",
+"n": 6,
+"avail": 10
+},
+"barrier": {
+"w": "barrier",
+"ipa": "/ˈbæriə(r)/",
+"pos": "n.",
+"zh": "屏障；障碍",
+"colloc": [
+"a barrier between 之间的屏障",
+"break the barrier 打破障碍"
+],
+"family": "",
+"n": 9,
+"avail": 12
+},
+"refuge": {
+"w": "refuge",
+"ipa": "/ˈrefjuːdʒ/",
+"pos": "n.",
+"zh": "避难处；藏身处",
+"colloc": [
+"take refuge in 躲进…避难",
+"a refuge from the cold 避寒之处"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"flee": {
+"w": "flee",
+"ipa": "/fliː/",
+"pos": "v.",
+"zh": "逃走；逃离",
+"colloc": [
+"flee in panic 惊慌逃跑",
+"flee the scene 逃离现场"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"peril": {
+"w": "peril",
+"ipa": "/ˈperəl/",
+"pos": "n.",
+"zh": "（严重的）危险",
+"colloc": [
+"in peril 处于危险中",
+"at one's own peril 自担风险"
+],
+"family": "",
+"n": 15,
+"avail": 79
+},
+"hazard": {
+"w": "hazard",
+"ipa": "/ˈhæzəd/",
+"pos": "n.",
+"zh": "隐患；危险因素",
+"colloc": [
+"a hidden hazard 隐患",
+"health hazard 健康风险"
+],
+"family": "",
+"n": 2,
+"avail": 3
+},
+"despair": {
+"w": "despair",
+"ipa": "/dɪˈspeə(r)/",
+"pos": "n./v.",
+"zh": "绝望",
+"colloc": [
+"in despair 绝望地",
+"drive sb. to despair 使某人绝望"
+],
+"family": "",
+"n": 14,
+"avail": 24
+},
+"dread": {
+"w": "dread",
+"ipa": "/dred/",
+"pos": "n./v.",
+"zh": "恐惧；畏惧",
+"colloc": [
+"with dread 怀着恐惧",
+"dread the moment 害怕那一刻"
+],
+"family": "",
+"n": 8,
+"avail": 13
+},
+"panic": {
+"w": "panic",
+"ipa": "/ˈpænɪk/",
+"pos": "n./v.",
+"zh": "惊慌；恐慌",
+"colloc": [
+"in panic 惊慌地",
+"panic set in 恐慌蔓延"
+],
+"family": "",
+"n": 10,
+"avail": 16
+},
+"bewilderment": {
+"w": "bewilderment",
+"ipa": "/bɪˈwɪldəmənt/",
+"pos": "n.",
+"zh": "困惑；茫然不解",
+"colloc": [
+"in bewilderment 困惑地",
+"a look of bewilderment 一脸困惑"
+],
+"family": "",
+"n": 9,
+"avail": 11
+},
+"contemplate": {
+"w": "contemplate",
+"ipa": "/ˈkɒntəmpleɪt/",
+"pos": "v.",
+"zh": "琢磨；沉思；考虑",
+"colloc": [
+"contemplate the problem 琢磨问题",
+"contemplate doing sth. 考虑做某事"
+],
+"family": "",
+"n": 15,
+"avail": 30
+},
+"discern": {
+"w": "discern",
+"ipa": "/dɪˈsɜːn/",
+"pos": "v.",
+"zh": "分辨；辨别出",
+"colloc": [
+"discern between right and wrong 分辨是非",
+"hard to discern 难以辨认"
+],
+"family": "",
+"n": 15,
+"avail": 17
+},
+"glimpse": {
+"w": "glimpse",
+"ipa": "/ɡlɪmps/",
+"pos": "v./n.",
+"zh": "瞥见；一瞥",
+"colloc": [
+"catch a glimpse of 瞥见",
+"glimpse sth. in the crowd 在人堆里瞄见"
+],
+"family": "",
+"n": 8,
+"avail": 9
+},
+"compliance": {
+"w": "compliance",
+"ipa": "/kəmˈplaɪəns/",
+"pos": "n.",
+"zh": "遵守；顺从",
+"colloc": [
+"in compliance with 遵照",
+"ensure compliance 确保服从"
+],
+"family": "",
+"n": 4,
+"avail": 6
+},
+"mandatory": {
+"w": "mandatory",
+"ipa": "/ˈmændətəri/",
+"pos": "adj.",
+"zh": "强制的；必须履行的",
+"colloc": [
+"a mandatory rule 强制性规则",
+"mandatory for everyone 人人必须"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"forfeit": {
+"w": "forfeit",
+"ipa": "/ˈfɔːfɪt/",
+"pos": "v.",
+"zh": "丧失；被罚失去",
+"colloc": [
+"forfeit one's right 丧失权利",
+"forfeit the chance 失去机会"
+],
+"family": "",
+"n": 2,
+"avail": 2
+},
+"immunity": {
+"w": "immunity",
+"ipa": "/ɪˈmjuːnəti/",
+"pos": "n.",
+"zh": "豁免；免疫力",
+"colloc": [
+"grant immunity 给予豁免",
+"immunity from punishment 免于处罚"
+],
+"family": "",
+"n": 2,
+"avail": 4
+},
+"anticipate": {
+"w": "anticipate",
+"ipa": "/ænˈtɪsɪpeɪt/",
+"pos": "v.",
+"zh": "预料；预先准备",
+"colloc": [
+"anticipate the worst 做最坏的打算",
+"as anticipated 如预料"
+],
+"family": "",
+"n": 10,
+"avail": 11
+},
+"inevitable": {
+"w": "inevitable",
+"ipa": "/ɪnˈevɪtəbl/",
+"pos": "adj.",
+"zh": "不可避免的；必然的",
+"colloc": [
+"an inevitable result 必然的结果",
+"it is inevitable that... 势必"
+],
+"family": "",
+"n": 6,
+"avail": 9
+},
+"abrupt": {
+"w": "abrupt",
+"ipa": "/əˈbrʌpt/",
+"pos": "adj.",
+"zh": "突然的；生硬的",
+"colloc": [
+"an abrupt stop 突兀的停顿",
+"abrupt manner 生硬的态度"
+],
+"family": "",
+"n": 8,
+"avail": 12
+},
+"simultaneously": {
+"w": "simultaneously",
+"ipa": "/ˌsɪmlˈteɪniəsli/",
+"pos": "adv.",
+"zh": "同时地",
+"colloc": [
+"happen simultaneously 同时发生",
+"speak simultaneously 同时开口"
+],
+"family": "simultaneous adj. 同时的",
+"n": 15,
+"avail": 66
+},
+"subsequently": {
+"w": "subsequently",
+"ipa": "/ˈsʌbsɪkwəntli/",
+"pos": "adv.",
+"zh": "随后；接着",
+"colloc": [
+"subsequently discovered 随后被发现"
+],
+"family": "subsequent adj. 随后的",
+"n": 15,
+"avail": 30
+},
+"sustain": {
+"w": "sustain",
+"ipa": "/səˈsteɪn/",
+"pos": "v.",
+"zh": "维持；支撑",
+"colloc": [
+"sustain life 维持生命",
+"sustain the effort 撑住"
+],
+"family": "",
+"n": 11,
+"avail": 15
+},
+"endure": {
+"w": "endure",
+"ipa": "/ɪnˈdjʊə(r)/",
+"pos": "v.",
+"zh": "忍受；忍耐",
+"colloc": [
+"endure the pain 忍住疼",
+"endure in silence 默默忍受"
+],
+"family": "",
+"n": 7,
+"avail": 8
+},
+"tolerate": {
+"w": "tolerate",
+"ipa": "/ˈtɒləreɪt/",
+"pos": "v.",
+"zh": "容忍；忍受",
+"colloc": [
+"tolerate noise 忍受噪音",
+"cannot tolerate 无法容忍"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"withstand": {
+"w": "withstand",
+"ipa": "/wɪðˈstænd/",
+"pos": "v.",
+"zh": "承受；抵住",
+"colloc": [
+"withstand pressure 顶住压力",
+"withstand the cold 抗住寒冷"
+],
+"family": "",
+"n": 2,
+"avail": 4
+},
+"suppress": {
+"w": "suppress",
+"ipa": "/səˈpres/",
+"pos": "v.",
+"zh": "压抑；压制",
+"colloc": [
+"suppress the urge 压住冲动",
+"suppress a laugh 憋住笑"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"restrain": {
+"w": "restrain",
+"ipa": "/rɪˈstreɪn/",
+"pos": "v.",
+"zh": "克制；抑制",
+"colloc": [
+"restrain oneself 克制住自己",
+"restrain the impulse 忍住冲动"
+],
+"family": "",
+"n": 13,
+"avail": 15
+},
+"obstruct": {
+"w": "obstruct",
+"ipa": "/əbˈstrʌkt/",
+"pos": "v.",
+"zh": "妨碍；阻挡",
+"colloc": [
+"obstruct the view 挡住视线",
+"obstruct sb.'s way 挡住去路"
+],
+"family": "",
+"n": 15,
+"avail": 19
+},
+"accelerate": {
+"w": "accelerate",
+"ipa": "/əkˈseləreɪt/",
+"pos": "v.",
+"zh": "加速；加快",
+"colloc": [
+"accelerate the pace 加快脚步",
+"accelerate the process 加速进程"
+],
+"family": "",
+"n": 7,
+"avail": 8
+},
+"vanish": {
+"w": "vanish",
+"ipa": "/ˈvænɪʃ/",
+"pos": "v.",
+"zh": "消失；突然不见",
+"colloc": [
+"vanish into thin air 凭空消失",
+"vanish without a trace 消失得无影无踪"
+],
+"family": "",
+"n": 16,
+"avail": 94
+},
+"dissipate": {
+"w": "dissipate",
+"ipa": "/ˈdɪsɪpeɪt/",
+"pos": "v.",
+"zh": "（使）消散；散去",
+"colloc": [
+"the fog dissipated 雾气散去",
+"dissipate the fear 消解恐惧"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"linger": {
+"w": "linger",
+"ipa": "/ˈlɪŋɡə(r)/",
+"pos": "v.",
+"zh": "萦绕；久留不去",
+"colloc": [
+"linger in the air 在空气里萦绕",
+"linger on 停留在"
+],
+"family": "",
+"n": 2,
+"avail": 2
+},
+"emerge": {
+"w": "emerge",
+"ipa": "/ɪˈmɜːdʒ/",
+"pos": "v.",
+"zh": "浮现；出现",
+"colloc": [
+"emerge from the dark 从黑暗里浮现",
+"gradually emerge 渐渐显现"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"engulf": {
+"w": "engulf",
+"ipa": "/ɪnˈɡʌlf/",
+"pos": "v.",
+"zh": "吞没；淹没",
+"colloc": [
+"be engulfed in darkness 被黑暗吞没"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"plunge": {
+"w": "plunge",
+"ipa": "/plʌndʒ/",
+"pos": "v.",
+"zh": "猛插；一头扎进",
+"colloc": [
+"plunge into the water 扎进水里",
+"plunge into darkness 一头扎进黑暗"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"fracture": {
+"w": "fracture",
+"ipa": "/ˈfræktʃə(r)/",
+"pos": "v./n.",
+"zh": "（使）断裂；骨折",
+"colloc": [
+"fracture the bone 骨折",
+"a hairline fracture 细微的裂痕"
+],
+"family": "",
+"n": 5,
+"avail": 9
+},
+"corpse": {
+"w": "corpse",
+"ipa": "/kɔːps/",
+"pos": "n.",
+"zh": "尸体",
+"colloc": [
+"a corpse in the snow 雪里的尸体",
+"the corpse stiffened 尸体僵了"
+],
+"family": "",
+"n": 5,
+"avail": 12
+},
+"decay": {
+"w": "decay",
+"ipa": "/dɪˈkeɪ/",
+"pos": "v./n.",
+"zh": "腐烂；衰败",
+"colloc": [
+"decaying wood 朽烂的木头",
+"in decay 在腐朽"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"tranquil": {
+"w": "tranquil",
+"ipa": "/ˈtræŋkwɪl/",
+"pos": "adj.",
+"zh": "静谧的；安宁的",
+"colloc": [
+"a tranquil night 静谧的夜",
+"tranquil surface 平静的水面"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"blizzard": {
+"w": "blizzard",
+"ipa": "/ˈblɪzəd/",
+"pos": "n.",
+"zh": "暴雪；风雪交加",
+"colloc": [
+"a raging blizzard 漫天暴雪",
+"caught in a blizzard 遇上暴雪"
+],
+"family": "",
+"n": 5,
+"avail": 12
+},
+"gust": {
+"w": "gust",
+"ipa": "/ɡʌst/",
+"pos": "n.",
+"zh": "一阵狂风",
+"colloc": [
+"a gust of wind 一阵狂风",
+"gusts of snow 卷着雪的风"
+],
+"family": "",
+"n": 1,
+"avail": 3
+},
+"chill": {
+"w": "chill",
+"ipa": "/tʃɪl/",
+"pos": "n./v.",
+"zh": "寒意；使变冷",
+"colloc": [
+"a chill down the spine 脊背发凉",
+"the chill of the night 夜里的寒意"
+],
+"family": "",
+"n": 7,
+"avail": 8
+},
+"thaw": {
+"w": "thaw",
+"ipa": "/θɔː/",
+"pos": "v.",
+"zh": "融化；解冻",
+"colloc": [
+"the snow thaws 雪化了",
+"thaw out 缓过来"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"dazed": {
+"w": "dazed",
+"ipa": "/deɪzd/",
+"pos": "adj.",
+"zh": "茫然的；发懵的",
+"colloc": [
+"a dazed look 茫然的神情",
+"leave sb. dazed 让人发懵"
+],
+"family": "",
+"n": 15,
+"avail": 65
+},
+"suspicion": {
+"w": "suspicion",
+"ipa": "/səˈspɪʃn/",
+"pos": "n.",
+"zh": "怀疑；猜疑",
+"colloc": [
+"arouse suspicion 引起怀疑",
+"above suspicion 无可怀疑"
+],
+"family": "",
+"n": 15,
+"avail": 63
+},
+"hesitation": {
+"w": "hesitation",
+"ipa": "/ˌhezɪˈteɪʃn/",
+"pos": "n.",
+"zh": "犹豫；迟疑",
+"colloc": [
+"without hesitation 毫不犹豫",
+"a moment's hesitation 一瞬的迟疑"
+],
+"family": "",
+"n": 15,
+"avail": 66
+},
+"vigilance": {
+"w": "vigilance",
+"ipa": "/ˈvɪdʒɪləns/",
+"pos": "n.",
+"zh": "警惕；警觉",
+"colloc": [
+"keep vigilance 保持警惕",
+"relax one's vigilance 放松警惕"
+],
+"family": "",
+"n": 15,
+"avail": 29
+},
+"crevice": {
+"w": "crevice",
+"ipa": "/ˈkrevɪs/",
+"pos": "n.",
+"zh": "（墙、石上的）缝隙；裂缝",
+"colloc": [
+"a narrow crevice 一道窄缝",
+"in the crevice 在缝隙里"
+],
+"family": "",
+"n": 15,
+"avail": 25
+},
+"console": {
+"w": "console",
+"ipa": "/kənˈsəʊl/",
+"pos": "v.",
+"zh": "安慰；抚慰",
+"colloc": [
+"console sb. 安慰某人",
+"console oneself 自我安慰"
+],
+"family": "",
+"n": 15,
+"avail": 24
+},
+"collapse": {
+"w": "collapse",
+"ipa": "/kəˈlæps/",
+"pos": "v./n.",
+"zh": "崩溃；倒塌",
+"colloc": [
+"collapse on the floor 瘫在地上",
+"mental collapse 精神崩溃"
+],
+"family": "",
+"n": 15,
+"avail": 24
+},
+"frown": {
+"w": "frown",
+"ipa": "/fraʊn/",
+"pos": "v.",
+"zh": "皱眉",
+"colloc": [
+"frown at sb. 冲某人皱眉",
+"a slight frown 微微皱眉"
+],
+"family": "",
+"n": 15,
+"avail": 22
+},
+"rigid": {
+"w": "rigid",
+"ipa": "/ˈrɪdʒɪd/",
+"pos": "adj.",
+"zh": "僵硬的；死板的",
+"colloc": [
+"go rigid 僵住",
+"rigid rules 死板的规矩"
+],
+"family": "",
+"n": 15,
+"avail": 35
+},
+"numb": {
+"w": "numb",
+"ipa": "/nʌm/",
+"pos": "adj.",
+"zh": "麻木的；失去感觉的",
+"colloc": [
+"go numb 麻了",
+"numb with cold 冻得没知觉"
+],
+"family": "",
+"n": 11,
+"avail": 19
+},
+"nausea": {
+"w": "nausea",
+"ipa": "/ˈnɔːziə/",
+"pos": "n.",
+"zh": "恶心；反胃",
+"colloc": [
+"a wave of nausea 一阵恶心",
+"feel nausea 犯恶心"
+],
+"family": "",
+"n": 13,
+"avail": 17
+},
+"proliferate": {
+"w": "proliferate",
+"ipa": "/prəˈlɪfəreɪt/",
+"pos": "v.",
+"zh": "迅速蔓延；激增",
+"colloc": [
+"rumours proliferate 谣言四起",
+"proliferate rapidly 迅速扩散"
+],
+"family": "",
+"n": 12,
+"avail": 15
+},
+"acute": {
+"w": "acute",
+"ipa": "/əˈkjuːt/",
+"pos": "adj.",
+"zh": "敏锐的；剧烈的",
+"colloc": [
+"acute hearing 敏锐的听觉",
+"acute sense 敏锐的感觉"
+],
+"family": "",
+"n": 13,
+"avail": 14
+},
+"distort": {
+"w": "distort",
+"ipa": "/dɪˈstɔːt/",
+"pos": "v.",
+"zh": "扭曲；使变形",
+"colloc": [
+"a distorted face 扭曲的脸",
+"distort the truth 歪曲事实"
+],
+"family": "",
+"n": 11,
+"avail": 14
+},
+"disgust": {
+"w": "disgust",
+"ipa": "/dɪsˈɡʌst/",
+"pos": "n./v.",
+"zh": "厌恶；反感",
+"colloc": [
+"in disgust 厌恶地",
+"a look of disgust 嫌恶的表情"
+],
+"family": "",
+"n": 10,
+"avail": 14
+},
+"tacit": {
+"w": "tacit",
+"ipa": "/ˈtæsɪt/",
+"pos": "adj.",
+"zh": "心照不宣的；默契的",
+"colloc": [
+"a tacit agreement 默契",
+"tacit understanding 默契"
+],
+"family": "",
+"n": 11,
+"avail": 13
+},
+"exhaustion": {
+"w": "exhaustion",
+"ipa": "/ɪɡˈzɔːstʃən/",
+"pos": "n.",
+"zh": "疲惫；精疲力竭",
+"colloc": [
+"collapse from exhaustion 累垮",
+"utter exhaustion 筋疲力尽"
+],
+"family": "",
+"n": 13,
+"avail": 16
+},
+"arrogance": {
+"w": "arrogance",
+"ipa": "/ˈærəɡəns/",
+"pos": "n.",
+"zh": "傲慢；自大",
+"colloc": [
+"with arrogance 傲慢地",
+"sheer arrogance 十足的傲慢"
+],
+"family": "",
+"n": 10,
+"avail": 13
+},
+"refute": {
+"w": "refute",
+"ipa": "/rɪˈfjuːt/",
+"pos": "v.",
+"zh": "反驳；驳倒",
+"colloc": [
+"refute an argument 反驳一个说法",
+"refute the claim 驳斥这种说法"
+],
+"family": "",
+"n": 10,
+"avail": 12
+},
+"proficient": {
+"w": "proficient",
+"ipa": "/prəˈfɪʃnt/",
+"pos": "adj.",
+"zh": "熟练的；精通的",
+"colloc": [
+"be proficient in 精通",
+"a proficient liar 撒起谎来很熟练"
+],
+"family": "",
+"n": 9,
+"avail": 11
+},
+"grit": {
+"w": "grit",
+"ipa": "/ɡrɪt/",
+"pos": "v.",
+"zh": "咬紧（牙关）",
+"colloc": [
+"grit one's teeth 咬紧牙关",
+"grit through the pain 硬撑过去"
+],
+"family": "",
+"n": 10,
+"avail": 11
+},
+"cautious": {
+"w": "cautious",
+"ipa": "/ˈkɔːʃəs/",
+"pos": "adj.",
+"zh": "谨慎的；小心的",
+"colloc": [
+"be cautious about 对…谨慎",
+"a cautious step 谨慎的一步"
+],
+"family": "",
+"n": 9,
+"avail": 10
+},
+"agile": {
+"w": "agile",
+"ipa": "/ˈædʒaɪl/",
+"pos": "adj.",
+"zh": "敏捷的；灵活的",
+"colloc": [
+"agile movements 敏捷的动作"
+],
+"family": "",
+"n": 9,
+"avail": 10
+},
+"malice": {
+"w": "malice",
+"ipa": "/ˈmælɪs/",
+"pos": "n.",
+"zh": "恶意；怨恨",
+"colloc": [
+"with malice 怀着恶意",
+"without malice 并无恶意"
+],
+"family": "",
+"n": 7,
+"avail": 10
+},
+"confine": {
+"w": "confine",
+"ipa": "/kənˈfaɪn/",
+"pos": "v.",
+"zh": "束缚；限制；禁闭",
+"colloc": [
+"be confined to 被限制在",
+"confine sb. 关起来"
+],
+"family": "",
+"n": 7,
+"avail": 9
+},
+"conceal": {
+"w": "conceal",
+"ipa": "/kənˈsiːl/",
+"pos": "v.",
+"zh": "掩饰；隐瞒；藏起",
+"colloc": [
+"conceal one's feelings 掩饰情绪",
+"conceal the truth 隐瞒真相"
+],
+"family": "",
+"n": 9,
+"avail": 13
+},
+"deprive": {
+"w": "deprive",
+"ipa": "/dɪˈpraɪv/",
+"pos": "v.",
+"zh": "剥夺；使丧失",
+"colloc": [
+"deprive sb. of sth. 剥夺某人某物",
+"be deprived of sleep 被夺去睡眠"
+],
+"family": "",
+"n": 5,
+"avail": 7
+},
+"seep": {
+"w": "seep",
+"ipa": "/siːp/",
+"pos": "v.",
+"zh": "渗出；慢慢漏出",
+"colloc": [
+"blood seeped out 血渗出来",
+"seep through 渗过"
+],
+"family": "",
+"n": 5,
+"avail": 6
+},
+"sluggish": {
+"w": "sluggish",
+"ipa": "/ˈslʌɡɪʃ/",
+"pos": "adj.",
+"zh": "迟钝的；迟缓的",
+"colloc": [
+"sluggish reaction 迟钝的反应",
+"feel sluggish 反应变慢"
+],
+"family": "",
+"n": 3,
+"avail": 6
+},
+"gasp": {
+"w": "gasp",
+"ipa": "/ɡɑːsp/",
+"pos": "v.",
+"zh": "喘息；倒抽气",
+"colloc": [
+"gasp for air 大口喘气",
+"a sharp gasp 一声抽气"
+],
+"family": "",
+"n": 5,
+"avail": 6
+},
+"neurotic": {
+"w": "neurotic",
+"ipa": "/njʊəˈrɒtɪk/",
+"pos": "adj.",
+"zh": "神经质的；神经过敏的",
+"colloc": [
+"a neurotic habit 神经质的习惯"
+],
+"family": "",
+"n": 3,
+"avail": 5
+},
+"gaze": {
+"w": "gaze",
+"ipa": "/ɡeɪz/",
+"pos": "v./n.",
+"zh": "注视；凝视",
+"colloc": [
+"gaze at sb. 凝视某人",
+"a steady gaze 沉静的目光"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"whimper": {
+"w": "whimper",
+"ipa": "/ˈwɪmpə(r)/",
+"pos": "v.",
+"zh": "呜咽；抽泣",
+"colloc": [
+"whimper in the corner 在角落里呜咽"
+],
+"family": "",
+"n": 4,
+"avail": 5
+},
+"mechanical": {
+"w": "mechanical",
+"ipa": "/məˈkænɪkl/",
+"pos": "adj.",
+"zh": "机械的；呆板的",
+"colloc": [
+"a mechanical voice 机械的声音",
+"mechanical movement 机械的动作"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"roar": {
+"w": "roar",
+"ipa": "/rɔː(r)/",
+"pos": "v./n.",
+"zh": "咆哮；轰鸣",
+"colloc": [
+"roar at sb. 冲某人吼",
+"a roar of anger 一声怒吼"
+],
+"family": "",
+"n": 3,
+"avail": 4
+},
+"retaliate": {
+"w": "retaliate",
+"ipa": "/rɪˈtælieɪt/",
+"pos": "v.",
+"zh": "反击；报复",
+"colloc": [
+"retaliate against 对…反击"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"verdict": {
+"w": "verdict",
+"ipa": "/ˈvɜːdɪkt/",
+"pos": "n.",
+"zh": "裁决；判定",
+"colloc": [
+"reach a verdict 作出判定",
+"the final verdict 最终判定"
+],
+"family": "",
+"n": 4,
+"avail": 4
+},
+"disguise": {
+"w": "disguise",
+"ipa": "/dɪsˈɡaɪz/",
+"pos": "v./n.",
+"zh": "伪装；假扮",
+"colloc": [
+"in disguise 伪装起来",
+"disguise oneself as 假扮成"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"hollow": {
+"w": "hollow",
+"ipa": "/ˈhɒləʊ/",
+"pos": "adj.",
+"zh": "空洞的；中空的",
+"colloc": [
+"a hollow voice 空洞的声音",
+"hollow eyes 空洞的眼神"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"tremble": {
+"w": "tremble",
+"ipa": "/ˈtrembl/",
+"pos": "v.",
+"zh": "发抖；震颤",
+"colloc": [
+"tremble with fear 吓得发抖",
+"tremble all over 浑身发抖"
+],
+"family": "",
+"n": 15,
+"avail": 27
+},
+"stiff": {
+"w": "stiff",
+"ipa": "/stɪf/",
+"pos": "adj.",
+"zh": "僵硬的；生硬的",
+"colloc": [
+"stiff neck 脖子发僵",
+"go stiff 僵住"
+],
+"family": "",
+"n": 3,
+"avail": 3
+},
+"tentative": {
+"w": "tentative",
+"ipa": "/ˈtentətɪv/",
+"pos": "adj.",
+"zh": "试探性的；暂定的",
+"colloc": [
+"a tentative step 试探性的一步",
+"tentative conclusion 初步结论"
+],
+"family": "",
+"n": 10,
+"avail": 16
+},
+"ponder": {
+"w": "ponder",
+"ipa": "/ˈpɒndə(r)/",
+"pos": "v.",
+"zh": "斟酌；仔细考虑",
+"colloc": [
+"ponder over the question 反复斟酌这个问题",
+"ponder for a moment 想了片刻"
+],
+"family": "",
+"n": 14,
+"avail": 18
+},
+"intricate": {
+"w": "intricate",
+"ipa": "/ˈɪntrɪkət/",
+"pos": "adj.",
+"zh": "错综复杂的；繁复的",
+"colloc": [
+"an intricate plan 复杂的计划",
+"intricate details 繁复的细节"
+],
+"family": "",
+"n": 15,
+"avail": 37
+},
+"blankly": {
+"w": "blankly",
+"ipa": "/ˈblæŋkli/",
+"pos": "adv.",
+"zh": "木然地；呆呆地",
+"colloc": [
+"stare blankly 木然地盯着",
+"answer blankly 发呆般回答"
+],
+"family": "blank adj. 空白的",
+"n": 6,
+"avail": 11
+}
+}

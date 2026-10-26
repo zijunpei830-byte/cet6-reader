@@ -1,0 +1,306 @@
+/* ============ 基础变量 ============ */
+:root{
+  --bg:#f7f5f0;
+  --bg-elev:#fffdf9;
+  --text:#26292e;
+  --text-soft:#5c626b;
+  --muted:#8b9099;
+  --line:#e3ded4;
+  --line-soft:#eee9e0;
+  --accent:#2b6d9e;
+  --accent-soft:#e8f0f6;
+  --shadow:0 18px 48px rgba(38,41,46,.16), 0 2px 8px rgba(38,41,46,.06);
+  --fs:19px;
+  --lh:1.95;
+  --page:720px;
+}
+:root[data-theme="dark"]{
+  --bg:#15181d;
+  --bg-elev:#1d2127;
+  --text:#c8cdd4;
+  --text-soft:#9aa2ad;
+  --muted:#79818c;
+  --line:#2b3038;
+  --line-soft:#232830;
+  --accent:#79b3d8;
+  --accent-soft:#1e2a33;
+  --shadow:0 18px 48px rgba(0,0,0,.55), 0 2px 8px rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none !important}
+html,body{margin:0;padding:0}
+html{background:var(--bg)}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+button{font:inherit;color:inherit;background:none;border:none;padding:0;cursor:pointer}
+input{font:inherit;color:inherit}
+
+/* ============ 顶部 ============ */
+.progressbar{
+  position:fixed;left:0;top:0;height:2px;width:0;
+  background:var(--accent);z-index:60;transition:width .1s linear;opacity:.85;
+}
+.topbar{
+  position:sticky;top:0;z-index:30;
+  height:calc(52px + env(safe-area-inset-top));
+  padding:env(safe-area-inset-top) 10px 0;
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:saturate(1.2) blur(12px);
+  -webkit-backdrop-filter:saturate(1.2) blur(12px);
+  border-bottom:1px solid var(--line-soft);
+}
+.navbtn{
+  display:flex;align-items:center;gap:5px;
+  font-size:15px;letter-spacing:.02em;color:var(--text-soft);
+  padding:8px 8px;border-radius:8px;transition:color .15s,background .15s;
+}
+.navbtn:hover{color:var(--text);background:var(--accent-soft)}
+.navbtn:active{transform:translateY(.5px)}
+.navbtn .ic{font-size:15px;line-height:1}
+.bookname{
+  font-size:14px;letter-spacing:.14em;color:var(--muted);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  font-family:ui-serif,Georgia,"Songti SC",serif;
+}
+.badge{
+  min-width:16px;height:16px;padding:0 4px;border-radius:8px;
+  background:var(--accent);color:#fff;font-size:11px;line-height:16px;
+  text-align:center;font-variant-numeric:tabular-nums;
+}
+
+/* ============ 正文 ============ */
+.view{display:block}
+.page{
+  max-width:var(--page);margin:0 auto;
+  padding:26px 22px 40px;
+  padding-left:max(22px, env(safe-area-inset-left));
+  padding-right:max(22px, env(safe-area-inset-right));
+}
+.chaphead{padding:6px 0 22px;border-bottom:1px solid var(--line-soft);margin-bottom:26px}
+.chapno{font-size:12px;letter-spacing:.22em;color:var(--accent);text-transform:uppercase;margin-bottom:6px}
+.chaptitle{
+  font-family:ui-serif,Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:25px;font-weight:700;line-height:1.35;letter-spacing:.03em;
+}
+.page p{
+  font-family:ui-serif,Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:var(--fs);line-height:var(--lh);
+  text-indent:2em;margin:0 0 .92em;
+  text-align:justify;text-justify:inter-ideograph;
+  word-break:break-word;color:var(--text);
+}
+.page p.dialogue{ /* 纯对话段落不缩进，读起来更接近纸质书 */
+  text-indent:2em;
+}
+.page p.sys{
+  text-indent:0;color:var(--accent);
+  font-size:calc(var(--fs) - 1px);letter-spacing:.02em;
+}
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-size:14px;letter-spacing:.1em}
+
+/* 单词 */
+.w{
+  font-family:ui-serif,Georgia,"Times New Roman",serif;
+  font-size:.9em;letter-spacing:.02em;
+  color:var(--accent);
+  border-bottom:1px dashed color-mix(in srgb, var(--accent) 55%, transparent);
+  padding:0 1px;cursor:pointer;
+  transition:background .15s,border-color .15s;
+}
+.w:active{background:var(--accent-soft)}
+.w.saved{
+  border-bottom:1px solid var(--accent);
+  background:color-mix(in srgb, var(--accent) 9%, transparent);
+  border-radius:2px;
+}
+
+/* 章节底部翻页 */
+.chapternav{
+  max-width:var(--page);margin:0 auto;
+  padding:0 22px calc(56px + env(safe-area-inset-bottom));
+  display:flex;gap:10px;
+}
+.chapternav button{
+  flex:1;padding:13px 10px;border:1px solid var(--line);border-radius:10px;
+  background:var(--bg-elev);font-size:14px;color:var(--text-soft);
+  transition:border-color .15s,color .15s,background .15s;
+  text-align:center;line-height:1.4;
+}
+.chapternav button:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.chapternav button:disabled{opacity:.35;cursor:default}
+.chapternav .next{text-align:center}
+
+/* ============ 遮罩 / 目录抽屉 ============ */
+.backdrop{
+  position:fixed;inset:0;background:rgba(20,22,26,.32);z-index:35;
+  opacity:0;transition:opacity .24s;backdrop-filter:blur(1px);
+}
+.backdrop.on{opacity:1}
+.drawer{
+  position:fixed;top:0;left:0;bottom:0;z-index:40;
+  width:min(84vw,344px);
+  background:var(--bg);
+  border-right:1px solid var(--line);
+  display:flex;flex-direction:column;
+  transform:translateX(-102%);
+  transition:transform .28s cubic-bezier(.32,.72,0,1);
+  box-shadow:6px 0 30px rgba(20,22,26,.10);
+  padding-top:env(safe-area-inset-top);
+}
+.drawer.on{transform:translateX(0)}
+.drawerhead{padding:16px 16px 10px;border-bottom:1px solid var(--line-soft)}
+.drawertitle{
+  font-family:ui-serif,Georgia,"Songti SC",serif;
+  font-size:19px;font-weight:700;letter-spacing:.08em;margin-bottom:12px;
+}
+.search{
+  width:100%;padding:9px 12px;border-radius:9px;
+  border:1px solid var(--line);background:var(--bg-elev);
+  font-size:13.5px;outline:none;
+}
+.search:focus{border-color:var(--accent)}
+.toclist{flex:1;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.tocrow{
+  display:flex;align-items:baseline;gap:8px;
+  padding:11px 16px;border-bottom:1px solid var(--line-soft);
+  font-size:14.5px;color:var(--text-soft);cursor:pointer;
+  transition:background .12s,color .12s;
+}
+.tocrow:hover{background:var(--accent-soft);color:var(--text)}
+.tocrow.active{color:var(--accent);background:var(--accent-soft);font-weight:600}
+.tocrow .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tocrow .n{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.tocrow.read .t::after{content:"·";color:var(--muted);margin-left:5px;font-weight:700}
+.drawerfoot{border-top:1px solid var(--line-soft);padding:12px 16px calc(14px + env(safe-area-inset-bottom))}
+.settingrow{display:flex;align-items:center;gap:8px}
+.settinglabel{font-size:12.5px;color:var(--muted);letter-spacing:.06em}
+.mini{
+  border:1px solid var(--line);border-radius:7px;padding:5px 10px;
+  font-size:12.5px;color:var(--text-soft);background:var(--bg-elev);
+}
+.mini:active{background:var(--accent-soft);color:var(--accent)}
+.switch{
+  width:38px;height:22px;border-radius:11px;background:var(--line);
+  position:relative;transition:background .18s;flex:none;
+}
+.switch i{
+  position:absolute;top:2px;left:2px;width:18px;height:18px;border-radius:50%;
+  background:#fff;transition:transform .18s;box-shadow:0 1px 3px rgba(0,0,0,.2);
+}
+.switch[aria-checked="true"]{background:var(--accent)}
+.switch[aria-checked="true"] i{transform:translateX(16px)}
+
+/* ============ 单词卡片 ============ */
+.wordcard{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  display:flex;justify-content:center;
+  padding:0 10px calc(10px + env(safe-area-inset-bottom));
+  pointer-events:none;
+}
+.wordcard .wc-inner{
+  pointer-events:auto;width:100%;max-width:480px;
+  background:var(--bg-elev);
+  border:1px solid var(--line);
+  border-radius:16px;
+  box-shadow:var(--shadow);
+  padding:18px 18px 14px;
+  transform:translateY(14px);opacity:0;
+  transition:transform .2s cubic-bezier(.32,.72,0,1), opacity .18s;
+  max-height:76vh;overflow-y:auto;overscroll-behavior:contain;
+}
+.wordcard.on .wc-inner{transform:translateY(0);opacity:1}
+.wc-top{display:flex;align-items:center;gap:8px}
+.wc-word{
+  font-family:ui-serif,Georgia,"Times New Roman",serif;
+  font-size:26px;font-weight:700;letter-spacing:.01em;line-height:1.2;
+  flex:1;word-break:break-word;
+}
+.speak{
+  font-size:15px;opacity:.65;padding:4px 6px;border-radius:6px;flex:none;
+}
+.speak:hover{opacity:1;background:var(--accent-soft)}
+.wc-close{font-size:15px;color:var(--muted);padding:4px 6px;margin-left:-2px;flex:none}
+.wc-close:hover{color:var(--text)}
+.wc-ipa{
+  font-family:"Segoe UI",system-ui,sans-serif;
+  font-size:13.5px;color:var(--muted);margin-top:5px;letter-spacing:.02em;
+}
+.wc-mean{margin-top:12px;font-size:15.5px;line-height:1.6;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.wc-pos{
+  font-size:11.5px;color:var(--accent);border:1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius:5px;padding:1px 6px;letter-spacing:.02em;flex:none;
+  font-family:ui-serif,Georgia,serif;
+}
+.wc-block{margin-top:14px;border-top:1px solid var(--line-soft);padding-top:12px}
+.wc-label{font-size:11.5px;letter-spacing:.14em;color:var(--muted);margin-bottom:7px}
+.wc-colloc{margin:0;padding:0;list-style:none}
+.wc-colloc li{
+  font-size:14px;line-height:1.72;color:var(--text-soft);
+  padding-left:12px;position:relative;
+  font-family:ui-serif,Georgia,serif;word-break:break-word;
+}
+.wc-colloc li::before{content:"·";position:absolute;left:0;color:var(--accent)}
+.wc-family{
+  margin-top:10px;font-size:12.5px;color:var(--muted);line-height:1.6;
+}
+.wc-family:empty{display:none}
+.wc-foot{
+  margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.wc-count{font-size:12px;color:var(--muted);letter-spacing:.02em}
+.fav{
+  padding:9px 22px;border-radius:9px;background:var(--accent);color:#fff;
+  font-size:14px;letter-spacing:.06em;transition:opacity .15s,background .15s;
+}
+.fav:hover{opacity:.9}
+.fav.on{background:var(--accent-soft);color:var(--accent);border:1px solid color-mix(in srgb, var(--accent) 45%, transparent)}
+
+/* ============ 生词本 ============ */
+#viewVocab{max-width:var(--page);margin:0 auto;padding:22px 22px calc(60px + env(safe-area-inset-bottom))}
+.vocabhead{padding:4px 0 16px;border-bottom:1px solid var(--line-soft)}
+.vocabhead h1{
+  font-family:ui-serif,Georgia,"Songti SC",serif;
+  font-size:22px;margin:0 0 6px;letter-spacing:.06em;
+}
+.vocabsub{margin:0;font-size:13px;color:var(--muted);line-height:1.6}
+.vocablist{list-style:none;margin:0;padding:0}
+.vitem{
+  display:flex;gap:12px;padding:16px 0;border-bottom:1px solid var(--line-soft);
+  align-items:flex-start;
+}
+.vmain{flex:1;min-width:0}
+.vword{
+  font-family:ui-serif,Georgia,"Times New Roman",serif;
+  font-size:19px;font-weight:700;line-height:1.3;
+}
+.vipa{font-size:12px;color:var(--muted);margin-left:7px;font-weight:400;letter-spacing:.02em}
+.vmean{font-size:14px;color:var(--text-soft);margin-top:4px;line-height:1.6}
+.vcolloc{font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.6;font-family:ui-serif,Georgia,serif}
+.vdel{
+  flex:none;color:var(--muted);font-size:13px;padding:4px 8px;border-radius:6px;
+  border:1px solid var(--line-soft);
+}
+.vdel:hover{color:#b4544a;border-color:#d8b7b2}
+.vempty{padding:54px 8px;text-align:center;color:var(--muted);font-size:14px;line-height:2}
+.vempty b{display:block;font-family:ui-serif,Georgia,serif;font-size:17px;color:var(--text-soft);margin-bottom:6px;font-weight:700}
+
+/* ============ 桌面 ============ */
+@media (min-width:760px){
+  :root{--fs:19.5px}
+  .page{padding:40px 0 56px}
+  .chapternav{padding:0 0 72px}
+  .wordcard{padding:0 20px 26px}
+  .drawer{width:344px}
+  .topbar{padding:0 16px}
+  .bookname{font-size:14.5px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important;animation:none !important}
+}
