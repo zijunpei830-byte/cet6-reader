@@ -247,7 +247,7 @@
     const n = Object.keys(state.vocab).length;
     const b = $('vocabBadge');
     b.textContent = String(n);
-    b.hidden = n === 0;
+    b.hidden = n === 0 || state.view === 'vocab';
   }
 
   /* ---------------- 生词本 ---------------- */
