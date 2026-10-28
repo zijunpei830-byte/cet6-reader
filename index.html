@@ -10,6 +10,24 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="stylesheet" href="style.css?v=20261028c">
+<script>
+  /* 版本自检：发现线上有新构建就跳到带版本号的地址，避免旧缓存继续用 */
+  window.__BUILD__ = '07933b4c5c';
+  (function () {
+    try {
+      fetch('version.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (!d || !d.v || d.v === window.__BUILD__) return;
+          var u = new URL(location.href);
+          if (u.searchParams.get('v') === d.v) return;
+          u.searchParams.set('v', d.v);
+          location.replace(u.toString());
+        })
+        .catch(function () {});
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
 
