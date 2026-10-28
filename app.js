@@ -268,7 +268,8 @@
   }
 
   function openCard(word) {
-    const w = state.words[word] || { w: word, ipa: '', pos: '', zh: '这个词条没有加载到，刷新一下页面再点。', colloc: [] };
+    const known = !!state.words[word];
+    const w = state.words[word] || { w: word, ipa: '', pos: '', zh: '词表里没有这个词条（多半是浏览器缓存了旧版本），刷新页面再点一次。', colloc: [] };
     if (cardWord && cardWord !== word) flushNote();
     cardWord = word;
     $('wcWord').textContent = w.w;
@@ -281,6 +282,7 @@
     $('wcBooks').textContent = names.length ? '见：' + names.join(' · ') : '';
     $('wcNote').value = state.notes[word] || '';
     $('noteState').textContent = '';
+    $('wcFav').hidden = !known;
     syncFavButton();
     const card = $('wordcard');
     card.hidden = false;
