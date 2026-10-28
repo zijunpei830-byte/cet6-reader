@@ -151,7 +151,7 @@
   async function fetchChapter(i) {
     const key = state.book + '/' + i;
     if (cache.has(key)) return cache.get(key);
-    const r = await fetch(`data/${state.book}/ch/${String(i).padStart(3, '0')}.json`, { cache: 'force-cache' });
+    const r = await fetch(`data/${state.book}/ch/${String(i).padStart(3, '0')}.json`, { cache: 'no-cache' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     cache.set(key, d);
@@ -268,8 +268,7 @@
   }
 
   function openCard(word) {
-    const w = state.words[word];
-    if (!w) return;
+    const w = state.words[word] || { w: word, ipa: '', pos: '', zh: '这个词条没有加载到，刷新一下页面再点。', colloc: [] };
     if (cardWord && cardWord !== word) flushNote();
     cardWord = word;
     $('wcWord').textContent = w.w;
@@ -451,8 +450,8 @@
     bind();
     try {
       const [books, words] = await Promise.all([
-        fetch('books.json', { cache: 'force-cache' }).then((r) => r.json()),
-        fetch('words.json', { cache: 'force-cache' }).then((r) => r.json()),
+        fetch('books.json', { cache: 'no-cache' }).then((r) => r.json()),
+        fetch('words.json', { cache: 'no-cache' }).then((r) => r.json()),
       ]);
       state.books = books.books || [];
       state.words = words;
