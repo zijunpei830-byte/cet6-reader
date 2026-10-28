@@ -5,6 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const LS = {
     vocab: 'gqg.vocab.v1',
+    notes: 'gqg.notes.v1',
     pos: 'gqg.pos.v1',
     read: 'gqg.read.v1',
     ui: 'gqg.ui.v1',
@@ -17,11 +18,13 @@
     chapter: null,
     ui: { fs: 19, theme: 'light' },
     vocab: {},       // word -> 收藏时间戳
+    notes: {},       // word -> 手写笔记
     read: new Set(),
     view: 'reader',
   };
   const cache = new Map();   // 章节 JSON 缓存
   let cardWord = null;
+  let noteTimer = 0;
 
   /* ---------------- 本地存储 ---------------- */
   const readJSON = (k, d) => {
@@ -32,6 +35,7 @@
 
   function loadStores() {
     state.vocab = readJSON(LS.vocab, {}) || {};
+    state.notes = readJSON(LS.notes, {}) || {};
     const ui = readJSON(LS.ui, null);
     if (ui) state.ui = Object.assign(state.ui, ui);
     const r = readJSON(LS.read, []);
@@ -200,9 +204,27 @@
   }, { passive: true });
 
   /* ---------------- 单词卡片 ---------------- */
+  function flushNote() {
+    clearTimeout(noteTimer);
+    noteTimer = 0;
+    const ta = $('wcNote');
+    if (!cardWord || !ta) return;
+    const v = ta.value.trim();
+    if (v) state.notes[cardWord] = v;
+    else delete state.notes[cardWord];
+    writeJSON(LS.notes, state.notes);
+  }
+  function flashSaved() {
+    const el = $('noteState');
+    el.textContent = '已保存 ✓';
+    clearTimeout(el._t);
+    el._t = setTimeout(() => { el.textContent = ''; }, 1400);
+  }
+
   function openCard(word) {
     const w = state.words[word];
     if (!w) return;
+    if (cardWord && cardWord !== word) flushNote();
     cardWord = word;
     $('wcWord').textContent = w.w;
     $('wcIpa').textContent = w.ipa || '';
@@ -211,12 +233,15 @@
     $('wcColloc').innerHTML = (w.colloc || []).map((c) => `<li>${escapeHtml(c)}</li>`).join('');
     $('wcFamily').textContent = w.family ? ('词族：' + w.family) : '';
     $('wcCount').textContent = w.n ? `全书出现 ${w.n} 次` : '';
+    $('wcNote').value = state.notes[word] || '';
+    $('noteState').textContent = '';
     syncFavButton();
     const card = $('wordcard');
     card.hidden = false;
     requestAnimationFrame(() => card.classList.add('on'));
   }
   function closeCard() {
+    flushNote();
     const card = $('wordcard');
     card.classList.remove('on');
     cardWord = null;
@@ -321,6 +346,12 @@
     $('wcClose').addEventListener('click', closeCard);
     $('wcFav').addEventListener('click', () => toggleFav(cardWord));
     $('wcSpeak').addEventListener('click', () => cardWord && speak(cardWord));
+    $('wcNote').addEventListener('input', () => {
+      clearTimeout(noteTimer);
+      $('noteState').textContent = '';
+      noteTimer = setTimeout(() => { flushNote(); flashSaved(); }, 450);
+    });
+    $('wcNote').addEventListener('blur', () => { if (noteTimer) { flushNote(); flashSaved(); } });
     $('wordcard').addEventListener('click', (e) => { if (e.target.id === 'wordcard') closeCard(); });
 
     $('chapternav').addEventListener('click', (e) => {
