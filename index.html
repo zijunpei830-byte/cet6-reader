@@ -17,9 +17,17 @@
 
 <header class="topbar">
   <button class="navbtn" id="btnToc" type="button"><span class="ic">☰</span>目录</button>
-  <div class="bookname" id="bookname">全球高考</div>
+  <button class="bookname" id="btnBook" type="button">书架</button>
   <button class="navbtn" id="btnVocab" type="button"><span class="ic" id="vocabIcon">📖</span><span id="vocabLabel">生词本</span><span class="badge" id="vocabBadge" hidden>0</span></button>
 </header>
+
+<main id="viewShelf" class="view" hidden>
+  <div class="shelf">
+    <h1 class="shelf-title">书架</h1>
+    <p class="shelf-sub">三本书共用一套生词本和笔记：同一个词在哪本书里点开，看到的都是同一条笔记。</p>
+    <ul class="booklist" id="bookList"></ul>
+  </div>
+</main>
 
 <main id="viewReader" class="view">
   <article class="page" id="page">
@@ -75,7 +83,7 @@
       <div class="note-hint"><span>停手就自动保存</span><span id="noteState"></span></div>
     </div>
     <div class="wc-foot">
-      <span class="wc-count" id="wcCount"></span>
+      <span class="wc-books" id="wcBooks"></span>
       <button class="fav" id="wcFav" type="button">收藏</button>
     </div>
   </div>
